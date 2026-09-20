@@ -14,6 +14,7 @@ screenshots/*
 
 videos/*
 !videos/.gitkeep
+!videos/*.mp4
 
 logs/*
 !logs/.gitkeep
