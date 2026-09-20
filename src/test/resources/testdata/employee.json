@@ -1,0 +1,8 @@
+{
+  "firstName": "Harshit",
+  "lastName": "Automation",
+  "employeeId": "EMP1001",
+  "jobTitle": "QA Engineer",
+  "employmentStatus": "Full-Time Permanent",
+  "profilePicture": "src/test/resources/testdata/profile.jpg"
+}

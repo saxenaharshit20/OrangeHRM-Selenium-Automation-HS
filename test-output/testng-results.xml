@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-20T14:41:22 IST" name="OrangeHRM Automation Suite" finished-at="2026-09-20T14:42:31 IST" duration-ms="68750">
+    <groups>
+    </groups>
+    <test started-at="2026-09-20T14:41:22 IST" name="OrangeHRM Six Scenarios" finished-at="2026-09-20T14:42:31 IST" duration-ms="68750">
+      <class name="com.orangehrm.tests.EmployeeLifecycleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:22 IST" name="setUp" finished-at="2026-09-20T14:41:36 IST" duration-ms="13865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializeTestData()[pri:0, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:36 IST" name="initializeTestData" finished-at="2026-09-20T14:41:37 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestData -->
+        <test-method signature="scenario1_Login()[pri:1, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:37 IST" name="scenario1_Login" description="Scenario 1 - Login" finished-at="2026-09-20T14:41:40 IST" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1_Login -->
+        <test-method signature="scenario2_AddEmployee()[pri:2, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:40 IST" name="scenario2_AddEmployee" description="Scenario 2 - Add Employee" finished-at="2026-09-20T14:41:49 IST" depends-on-methods="com.orangehrm.tests.EmployeeLifecycleTest.scenario1_Login" duration-ms="9280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2_AddEmployee -->
+        <test-method signature="scenario3_EditEmployee()[pri:3, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:49 IST" name="scenario3_EditEmployee" description="Scenario 3 - Edit Employee" finished-at="2026-09-20T14:41:57 IST" depends-on-methods="com.orangehrm.tests.EmployeeLifecycleTest.scenario2_AddEmployee" duration-ms="8218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario3_EditEmployee -->
+        <test-method signature="scenario4_ApiValidation()[pri:4, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:41:57 IST" name="scenario4_ApiValidation" description="Scenario 4 - API Validation" finished-at="2026-09-20T14:42:05 IST" depends-on-methods="com.orangehrm.tests.EmployeeLifecycleTest.scenario3_EditEmployee" duration-ms="7437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario4_ApiValidation -->
+        <test-method signature="scenario5_DeleteEmployee()[pri:5, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:42:05 IST" name="scenario5_DeleteEmployee" description="Scenario 5 - Delete Employee and API Verification" finished-at="2026-09-20T14:42:29 IST" depends-on-methods="com.orangehrm.tests.EmployeeLifecycleTest.scenario4_ApiValidation" duration-ms="24058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario5_DeleteEmployee -->
+        <test-method signature="scenario6_Logout()[pri:6, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:42:29 IST" name="scenario6_Logout" description="Scenario 6 - Logout and Session Validation" finished-at="2026-09-20T14:42:31 IST" depends-on-methods="com.orangehrm.tests.EmployeeLifecycleTest.scenario5_DeleteEmployee" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario6_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.EmployeeLifecycleTest@52bf72b5]" started-at="2026-09-20T14:42:31 IST" name="tearDown" finished-at="2026-09-20T14:42:31 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.tests.EmployeeLifecycleTest -->
+    </test> <!-- OrangeHRM Six Scenarios -->
+  </suite> <!-- OrangeHRM Automation Suite -->
+</testng-results>
